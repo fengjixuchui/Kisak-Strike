@@ -34,6 +34,7 @@ cmake-dev-test/*
 cmake-build-*/*
 rocketui/cmake-build-*/*
 scaleformui/cmake-build-*/*
+vphysics_bullet/cmake-build-*/*
 
 #Ignore rebuilt static libs
 *.a
@@ -64,4 +65,12 @@ engine_ds/generated_proto/*
 gcsdk/generated_proto/*
 !gcsdk/generated_proto/placeholder.txt
 
-lib/common/linux64/stG3LqP3
+lib/common/linux64/st*
+lib/public/linux64/st*
+
+#lwss stashed
+hammer_qt/*
+public/vphysics_interfaceV32.h
+public/vphysics_bullet/*
+vphysics_bullet/*
+thirdparty/bullet3/*

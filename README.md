@@ -39,16 +39,9 @@ TODO
 ```
 
 ## BUILD - cmake/make
-#### CMake Options
-* -DUSE_KISAK_PHYSICS=1
-    * Use the open source Physics rebuild instead of a blob from the 734 Binary repo
-* -DUSE_ROCKETUI=1
-    * Use Custom RocketUI. Without this, the UI will be a broken mess of VGUI. (Scaleform is disabled by default use -DUSE_SCALEFORM=1 if you really want)
-* -DDEDICATED=1
-    * Change the build to dedicated server mode. Note that the builds are not in-tree compatible, some things will have to be rebuilt. Make sure to use -DDEDICATED=0 once you want to go back to the client build.
-* -DUSE_VALVE_HRTF=1
-    * By default the HRTF is disabled because it requires a proprietary blob(libphonon3d.so), set this flag to re-enable it.
- #### Usage
+See the wiki page for building options: https://github.com/SwagSoftware/Kisak-Strike/wiki/CMake
+
+ #### Basic Usage
 ```
 cd ./cmake-build
 cmake .. <VARIOUS OPTIONS HERE>
@@ -85,8 +78,7 @@ These belong inside of your `../game/` folder.
 
 
 
-## License
-##### Kisak-Strike code is Property of Valve Software, do not use this code in any commercial project without first contacting sourceengine@valvesoftware.com.
+## License(s)
 ##### Any contributions made to Kisak-Strike will be considered donations to the public domain.
 
 ##### The following Inherited License from Source SDK also applies.
